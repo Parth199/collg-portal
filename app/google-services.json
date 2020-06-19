@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "33284118194",
+    "firebase_url": "https://clgportal.firebaseio.com",
+    "project_id": "clgportal",
+    "storage_bucket": "clgportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33284118194:android:317432f7cdc7de2c",
+        "android_client_info": {
+          "package_name": "friendlyitsolution.com.itmconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33284118194-649ee3pv5sn8damkbqgvm3jrj85j13t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "friendlyitsolution.com.itmconnect",
+            "certificate_hash": "7b6f12effff0f0393c77106e475656c3eeb7628d"
+          }
+        },
+        {
+          "client_id": "33284118194-dkpsn8t9dt1vsqftp46reobug7tm9ctd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuxtpSlrKDUUp9pRe3i3bNagM9rgeC7x4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33284118194-dkpsn8t9dt1vsqftp46reobug7tm9ctd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

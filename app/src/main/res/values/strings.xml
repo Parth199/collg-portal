@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ITM Connect</string>
+
+    <string name="title_activity_home">ITM Connect</string>
+
+    <string name="title_activity_main2">Chat</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_activity_userprofile">userprofile</string>
+
+    <string name="title_activity_documents">Documents</string>
+    <string name="title_activity_answer">Posted Question</string>
+    <string name="title_activity_chat_screen">chatScreen</string>
+    <string name="title_activity_documentspost">DcumentsPosted</string>
+    <string name="title_activity_lockack">lockack</string>
+    <string name="title_activity_splash_screen">Splash_screen</string>
+    <string name="title_activity_mywritepost">mywritepost</string>
+    <string name="title_activity_myhome">myhome</string>
+</resources>

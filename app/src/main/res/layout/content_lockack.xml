@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="friendlyitsolution.com.itmconnect.lockack"
+    tools:showIn="@layout/activity_lockack">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lgo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/header_cover_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/userpro"
+        app:civ_border_width="2dp"
+
+        app:civ_border_color="@color/app_blue"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lgo"
+        android:layout_centerHorizontal="true"
+
+        android:text="Meet Patel"
+        android:textStyle="bold"
+        android:id="@+id/name"
+        android:textSize="25dp"
+        android:textColor="@color/app_blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="You are locked"
+        android:textStyle="bold"
+        android:id="@+id/lab1"
+        android:textSize="14dp"
+        android:textColor="@color/app_blue"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/lab1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="You have to unlock this account by admin"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_gray"/>
+
+
+
+    <TextView
+        android:id="@+id/tvDeveloped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_blue"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        android:text="V 2.0"
+        android:textColor="@color/white"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/icon_lock"/>
+
+</RelativeLayout>
